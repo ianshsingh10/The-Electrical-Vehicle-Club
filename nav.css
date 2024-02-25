@@ -24,14 +24,13 @@ body{
     color: silver;
 }
 .nav-box{
-
     display: flex;
     justify-content: center;
 }
 .navbar{
-    width: 30vmin;
-    margin-top: 20vmin;
-    margin-bottom: 20vmin;
+    width: 35vmin;
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5vmax;
+    gap: 5vmin;
 }
 a{
     font-size: 5vmin;
