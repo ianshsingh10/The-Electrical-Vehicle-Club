@@ -197,6 +197,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 5vmin;
 }
 .logo{
     width: 30vmin;
@@ -210,11 +211,11 @@ body{
 }
 #about-section{
     margin: 15vmin;
-    padding-bottom: 18vmin;
-    width: 80vmin;
+    padding-bottom: 15vmin;
+    width: 70vmin;
 }
 #about-1{
-    font-size: 50px;
+    font-size: 45px;
     font-family: BankGothic Md BT;
 }
 #about-2{

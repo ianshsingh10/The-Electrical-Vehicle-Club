@@ -24,16 +24,17 @@ body{
     color: silver;
 }
 .nav-box{
-    display: flex;
-    justify-content: center;
-}
-.navbar{
-    width: 35vmin;
-    margin-top: 10vmin;
-    margin-bottom: 10vmin;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navbar{
+    width: 35vmin;
+    margin-bottom: 10vmin;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .g1{
