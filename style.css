@@ -296,6 +296,9 @@ body{
     text-align: center;
     z-index: 1;
 }
+.alegrian{
+    font-family: Algerian;
+}
 .photo-1{
     height: 300px;
     width: 250px;

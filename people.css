@@ -45,7 +45,11 @@ a:hover{
     width: 100%;
     font-size: 5vmax;
     text-align: center;
+    font-family: BankGothic Md BT;
     z-index: 1;
+}
+.bold{
+    font-family: Algerian;
 }
 .member{
     margin: 2vmax;
