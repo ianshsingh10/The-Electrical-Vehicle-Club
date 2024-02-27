@@ -197,7 +197,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 5vmin;
 }
 .logo{
     width: 30vmin;
