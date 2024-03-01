@@ -3,6 +3,9 @@ let detail=document.querySelector(".Details");
 let btn=document.querySelector("#submit");
 let certi=document.querySelector(".certi");
 let c=-1;
+detail.addEventListener("click",()=>{
+    detail.value="";
+});
 const get=(reg_no)=>{
     for(i=0;i<reg.length;i++){
         if(`${reg_no}`.toUpperCase()==reg[i]){
