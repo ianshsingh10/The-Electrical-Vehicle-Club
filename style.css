@@ -3,6 +3,9 @@
     padding: 0;
     color: silver;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     cursor: none;
