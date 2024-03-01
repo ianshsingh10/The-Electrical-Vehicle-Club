@@ -69,6 +69,17 @@ button{
 .certi{
     width: 80vmin
 }
+.download{
+    text-align: center;
+    color: black;
+    height: 5vmin;
+    width: 50vmin;
+    background-color: silver;
+}
+.download:hover{
+    color: black;
+    background-color: white;
+}
 .hide{
     display: none;
 }

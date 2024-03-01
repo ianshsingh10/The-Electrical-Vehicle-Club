@@ -2,6 +2,7 @@ const reg=["0","23BCE10535","23BCE10496","23BCE11633","23BSA10021","23BAI10548",
 let detail=document.querySelector(".Details");
 let btn=document.querySelector("#submit");
 let certi=document.querySelector(".certi");
+let download=document.querySelector(".download");
 let c=-1;
 detail.addEventListener("click",()=>{
     detail.value="";
@@ -11,7 +12,9 @@ const get=(reg_no)=>{
         if(`${reg_no}`.toUpperCase()==reg[i]){
             var img=document.getElementById("image");
             certi.classList.remove("hide")
+            download.classList.remove("hide")
             img.src=`Certificate/${i}.png`;
+            download.href=`Certificate/${i}.png`;
             c=i;
         }
     }
