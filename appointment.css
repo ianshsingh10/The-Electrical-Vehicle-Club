@@ -75,6 +75,7 @@ button{
     height: 5vmin;
     width: 50vmin;
     background-color: silver;
+    /* margin-bottom: 3vmin; */
 }
 .download:hover{
     color: black;
@@ -84,11 +85,8 @@ button{
     display: none;
 }
 
-@media screen and(max-Width:500px) {
+/* @media (max-Width:500px) {
     body{
         cursor: auto;
     }
-    .cursor{
-        display: none;
-    }
-}
+} */
