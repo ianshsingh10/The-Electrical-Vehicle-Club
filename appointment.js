@@ -14,8 +14,8 @@ const get=(reg_no)=>{
     for(i=0;i<reg.length;i++){
         if(`${reg_no}`.toUpperCase()==reg[i]){
             var img=document.getElementById("image");
-            certi.classList.remove("hide")
-            download.classList.remove("hide")
+            certi.classList.remove("hide");
+            download.classList.remove("hide");
             img.src=`Appointment/${i}.png`;
             download.href=`Appointment/${i}.png`;
             c=i;
